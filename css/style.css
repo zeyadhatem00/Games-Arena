@@ -155,6 +155,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 h1 {
   font-family: "DaysOne";
