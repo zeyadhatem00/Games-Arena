@@ -1,0 +1,1445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Arena</title>
+    <link rel="shortcut icon" href="Images/gamepad.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <nav class="navbar navbar-expand-lg my-nav fixed-top" id="navbar">
+      <div class="container-xxl">
+        <div class="n ms-lg-3">
+          <i class="fa-solid fa-gamepad fa-lg me-2" style="color: #cbfe1c"></i>
+          <span class="ga">GameArena</span>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="nav-togle"><i class="fa-solid fa-bars"></i></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse d-lg-flex mt-2 mt-lg-0 justify-content-lg-between"
+          id="navbarNav"
+        >
+          <div class="ulll d-lg-none"></div>
+          <ul class="navbar-nav mt-1 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ourgames">OUR GAMES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#whatwedo">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ourteam">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">Contact Us</a>
+            </li>
+            <li class="nav-item d-lg-none">
+              <a class="nav-link" href="#">Tournaments</a>
+            </li>
+          </ul>
+          <div class="ulll d-lg-none"></div>
+          <div
+            class="d-flex align-items-lg-center mt-2 mt-lg-0 pt-2 pt-lg-0 align-items-start flex-lg-row flex-column column-gap-2 me-lg-5"
+          >
+            <button
+              class="bg-transparent mt-3 mt-lg-0 d-flex align-items-center mnn border-0"
+            >
+              <i class="fa-regular fa-bell"></i>
+              <span class="d-lg-none mn">Messages</span>
+            </button>
+            <button
+              class="bg-transparent d-flex my-2 py-4 py-lg-0 my-lg-0 align-items-center mnn border-0"
+            >
+              <i class="fa-regular fa-message"></i>
+              <span class="d-lg-none mn">Notifications</span>
+            </button>
+            <button
+              class="border-0 ms-lg-2 mb-2 mb-lg-0 w-100 px-4 py-2 rounded-3 btn-sign"
+            >
+              Sign In
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="joy d-none d-lg-flex justify-content-center align-items-center">
+      <i
+        class="fa-solid fa-lg fa-gamepad fa-beat"
+        style="color: rgb(0, 0, 0)"
+      ></i>
+    </div>
+
+    <header
+      class="min-vh-100 d-flex align-items-center position-relative"
+      id="home"
+    >
+      <div class="bill rounded-pill d-none d-lg-flex">
+        <div class="bill-in rounded-pill d-none d-lg-block"></div>
+      </div>
+
+      <div class="container-xxl ps-lg-4 pt-lg-2">
+        <div class="row align-items-center">
+          <div class="col-lg-6 ps-lg-4 text-center text-lg-start">
+            <div class="ps-lg-3 pt-lg-3 pt-5">
+              <h1>
+                THE ULTIMATE
+                <span class="d-block">GAMING</span>
+                EXPERIENCE
+              </h1>
+              <p class="head-p">
+                Join millions of gamers worldwide in the most competitive
+                eSports tournaments. Experience next-level gaming with
+                cutting-edge technology and endless possibilities.
+              </p>
+              <div
+                class="d-lg-flex column-gap-lg-3 justify-content-center justify-content-lg-start"
+              >
+                <button
+                  class="border-0 rounded-3 btn-sign px-lg-4 py-2 px-1 mb-2 mb-lg-0 py-lg-3"
+                >
+                  Start Gaming Now
+                </button>
+                <button class="rounded-3 btn-watch px-lg-4 py-2 px-1 py-lg-3">
+                  Watch Tournaments
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 pt-3">
+            <div>
+              <div class="head-img position-relative">
+                <div
+                  class="d-flex p-lg-4 px-1 py-2 position-absolute align-items-center justify-content-center float rounded-3"
+                >
+                  <i
+                    class="fa-solid fa-trophy ms-lg-1 me-lg-3 me-3 ms-2 fa-lg"
+                    style="color: #cbfe1c"
+                  ></i>
+                  <div class="w-100 d-flex flex-column justify-content-end">
+                    <span class="m-0 active-players">Active Players</span>
+                    <span class="m-0 two-five">2.5M+</span>
+                  </div>
+                </div>
+
+                <img
+                  src="Images/imgi_1_hero-img-C0b4IWtS.png"
+                  alt="hero-photo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="our-games" id="ourgames">
+      <div class="container">
+        <div class="m-64 mm d-flex flex-column align-items-center">
+          <p class="mt-0 mb-3 our-p">
+            O U R <span class="ms-1">G A M E S</span>
+          </p>
+          <h2 class="m-0 our-h">Our Latest Games</h2>
+        </div>
+
+        <div id="carouselExample" class="carousel slide position-relative">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-gamepad me-2"
+                            style="color: #cbfe1c"
+                          ></i
+                          >ADVENTURE
+                        </span>
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-users me-2"
+                            style="color: #cbfe1c"
+                          ></i>
+                          MULTIPLAYER</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Alien Companions</p>
+                    </div>
+
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_2_latest-games-1-CfV33bjK.png"
+                      class="rounded-4 cad-hover h-75 w-100 d-block object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-md-4 d-none d-lg-inline position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-flag-checkered me-2"
+                            style="color: #cbfe1c"
+                          ></i
+                          >RACING
+                        </span>
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-bolt me-2"
+                            style="color: #cbfe1c"
+                          ></i>
+                          SC-FI</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Cyber Run 2099</p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_3_latest-games-2-DcGt1MOH.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-md-4 d-none d-lg-inline position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-brands fa-discord me-2"
+                            style="color: #cbfe1c"
+                          ></i
+                          >ACTION
+                        </span>
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-microchip me-2"
+                            style="color: #cbfe1c"
+                          ></i>
+                          GEFORCE</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">
+                        The Legend of Zelda: Tears of the<br />
+                        Kingdom
+                      </p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_4_latest-games-3-3PuaZ95E.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-shield-halved me-2"
+                            style="color: #cbfe1c"
+                          ></i
+                          >RPG
+                        </span>
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-wand-magic-sparkles me-2"
+                            style="color: #cbfe1c"
+                          ></i>
+                          FANTASY</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Aetheria Chronicles</p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_5_latest-games-4-DCWGKdgP.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-md-4 d-none d-lg-inline position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-user-group me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i
+                          >CO-OP</span
+                        >
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-crosshairs me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i>
+                          SHOOTER</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Warfront Protocol</p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_6_latest-games-5-D0uhM4CW.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-md-4 d-none d-lg-inline position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-dragon me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i
+                          >FOOTBALL</span
+                        >
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-star me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i>
+                          FANTASY</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Shot Striker</p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_7_latest-games-6-CJaIm3nW.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-trophy me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i
+                          >SPORTS</span
+                        >
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-fire me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i>
+                          LEAGUE</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Epic Gaming League</p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_8_latest-games-7-C9aSwQWa.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-md-4 d-none d-lg-inline position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-rocket me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i
+                          >SPACE</span
+                        >
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-globe me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i
+                          >EXPLORATION</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Barren alien worlds</p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_9_latest-games-8-CDS2WV4Q.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-md-4 d-none d-lg-inline position-relative">
+                    <div class="hover-clone rounded-4">
+                      <div class="clone">
+                        <span class="span-clone me-2 rounded-4"
+                          ><i
+                            class="fa-solid fa-hat-wizard me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i
+                          >ACTION</span
+                        >
+                        <span class="span-clone rounded-4"
+                          ><i
+                            class="fa-solid fa-dungeon me-2"
+                            style="color: rgb(203, 254, 28)"
+                          ></i
+                          >FUTURISTIC</span
+                        >
+                      </div>
+                      <p class="p-clone ms-4 mb-4">Cloveland Quest</p>
+                    </div>
+                    <img
+                      alt="game-photo"
+                      src="Images/imgi_10_latest-games-9-BhBeVXRH.png"
+                      class="rounded-4 h-75 w-100 object-fit-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center align-items-center move"
+          >
+            <div class="d-flex mb-3 py-1 mb-lg-0 py-lg-0">
+              <button
+                class="me-4 car-btn"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <i class="fa-solid fa-lg fa-arrow-left"></i>
+              </button>
+
+              <button
+                class="me-2 car-btn"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <i class="fa-solid fa-lg fa-arrow-right"></i>
+              </button>
+            </div>
+
+            <button
+              class="rounded-3 btn-watch px-lg-4 py-2 px-1 py-lg-3 ms-lg-4"
+            >
+              VIEW ALL GAMES
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="what" id="whatwedo">
+      <div class="container">
+        <div class="m-64 d-flex mm flex-column align-items-center">
+          <p class="mt-0 mb-4 our-p">
+            W H A T <span class="ms-2 me-2">W E</span> D O
+          </p>
+
+          <h2 class="mt-0 mb-2 our-h">More Than Just Games</h2>
+          <p class="what-p m-0">
+            We Build <span style="color: #cbfe1c">Interactive </span> Journeys
+          </p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3 col-6">
+            <div
+              class="overflow-hidden d-flex justify-content-center flex-column position-relative align-items-center p-4 w-100 h-100 rounded-4 what-hover"
+              style="background-color: #1a1a1a"
+            >
+              <div class="what-card mb-3 rounded-3">
+                <i class="fa-solid fa-lg fa-desktop what-color"></i>
+              </div>
+              <p class="pppp">PC Game</p>
+              <div></div>
+              <div class="empty"></div>
+              <div class="empty-2"></div>
+              <p class="pppp">Development</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div
+              class="d-flex justify-content-center flex-column position-relative overflow-hidden align-items-center p-4 w-100 h-100 rounded-4 what-hover"
+              style="background-color: #1a1a1a"
+            >
+              <div class="what-card mb-3 rounded-3">
+                <i class="fa-solid fa-lg fa-mobile-screen what-color"></i>
+              </div>
+              <p class="pppp">Mobile Game</p>
+              <div class="empty"></div>
+              <div class="empty-2"></div>
+              <p class="pppp">Development</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <img
+              alt="joystick"
+              src="Images/imgi_11_what-we-do-1-DuZnkwGW.png"
+              class="w-100 object-fit-cover h-100 rounded-4"
+            />
+          </div>
+          <div class="col-lg-3 col-6">
+            <div
+              class="d-flex justify-content-center flex-column position-relative overflow-hidden align-items-center p-4 w-100 h-100 rounded-4 what-hover"
+              style="background-color: #1a1a1a"
+            >
+              <div class="what-card mb-3 rounded-3">
+                <i class="fa-solid fa-lg fa-vr-cardboard what-color"></i>
+              </div>
+              <p class="pppp">AR/VR</p>
+              <div class="empty"></div>
+              <div class="empty-2"></div>
+              <p class="pppp">Solutions</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div
+              class="d-flex justify-content-center flex-column position-relative overflow-hidden align-items-center p-4 w-100 h-100 rounded-4 what-hover"
+              style="background-color: #1a1a1a"
+            >
+              <div class="what-card mb-3 rounded-3">
+                <i class="fa-solid fa-lg fa-cubes what-color"></i>
+              </div>
+              <p class="pppp">AR/VR</p>
+              <div class="empty"></div>
+              <div class="empty-2"></div>
+              <p class="pppp">Design</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <img
+              alt="game-character"
+              src="Images/imgi_12_what-we-do-2-DVAo6agz.png"
+              class="w-100 h-100 object-fit-cover rounded-4"
+            />
+          </div>
+          <div class="col-lg-3 col-6">
+            <div
+              class="d-flex justify-content-center flex-column position-relative overflow-hidden align-items-center p-4 w-100 h-100 rounded-4 what-hover"
+              style="background-color: #1a1a1a"
+            >
+              <div class="what-card mb-3 rounded-3">
+                <i class="fa-brands fa-lg fa-playstation what-color"></i>
+              </div>
+              <p class="pppp">PS4 Game</p>
+              <div class="empty"></div>
+              <div class="empty-2"></div>
+              <p class="pppp">Development</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div
+              class="d-flex justify-content-center flex-column overflow-hidden position-relative align-items-center p-4 w-100 h-100 rounded-4 what-hover"
+              style="background-color: #1a1a1a"
+            >
+              <div class="what-card mb-3 rounded-3">
+                <i class="fa-solid fa-lg fa-cube what-color"></i>
+              </div>
+              <p class="pppp">3D</p>
+              <div class="empty"></div>
+              <div class="empty-2"></div>
+              <p class="pppp">Modelings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sponsors">
+      <div
+        class="back d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="slider overflow-x-auto d-flex p-4">
+          <div class="group d-flex justify-content-center align-items-center">
+            <div class="card-slider dimen">
+              <img
+                alt="sponsors"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_13_logo-1-ByM-Sex8.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsors"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_14_logo-2-0gIktwSm.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_15_logo-3-CczztP90.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_17_logo-5-DFypfU0k.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_19_logo-7-DSTdzFnp.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_18_logo-6-DcGD8G7v.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_21_logo-9-btJ2eZYX.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_20_logo-8-BuH3qQns.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_13_logo-1-ByM-Sex8.jpg"
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="group d-flex justify-content-center align-items-center"
+          >
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_13_logo-1-ByM-Sex8.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_14_logo-2-0gIktwSm.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_15_logo-3-CczztP90.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_17_logo-5-DFypfU0k.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_19_logo-7-DSTdzFnp.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_18_logo-6-DcGD8G7v.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_21_logo-9-btJ2eZYX.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_20_logo-8-BuH3qQns.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_20_logo-8-BuH3qQns.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="slider overflow-x-auto d-flex px-4 pt-1">
+          <div class="group-2 d-flex justify-content-center align-items-center">
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_13_logo-1-ByM-Sex8.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_14_logo-2-0gIktwSm.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_15_logo-3-CczztP90.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_17_logo-5-DFypfU0k.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_19_logo-7-DSTdzFnp.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_18_logo-6-DcGD8G7v.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_21_logo-9-btJ2eZYX.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_20_logo-8-BuH3qQns.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_13_logo-1-ByM-Sex8.jpg"
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="group-2 d-flex justify-content-center align-items-center"
+          >
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_13_logo-1-ByM-Sex8.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_14_logo-2-0gIktwSm.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_15_logo-3-CczztP90.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_17_logo-5-DFypfU0k.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_19_logo-7-DSTdzFnp.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_18_logo-6-DcGD8G7v.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_21_logo-9-btJ2eZYX.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_20_logo-8-BuH3qQns.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_22_logo-10-DlvZwrGv.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_16_logo-4-CqgtpirC.jpg"
+              />
+            </div>
+            <div class="card-slider dimen">
+              <img
+                alt="sponsor-logo"
+                class="w-100 object-fit-cover rounded-3"
+                src="Images/imgi_20_logo-8-BuH3qQns.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-team" id="ourteam">
+      <div class="container">
+        <div class="m-64 mm d-flex flex-column align-items-center">
+          <p class="mt-0 mb-3 our-p">O U R <span class="ms-1">T E A M</span></p>
+          <h2 class="m-0 our-h text-center text-lg-start smaaall">
+            Our Best Team<br class="d-lg-none" />
+            Members
+          </h2>
+          <p class="mt-lg-4 mt-3 mb-0 ot">
+            Meet the professional gamers and experts behind our success
+          </p>
+        </div>
+
+        <div>
+          <div class="row gy-4">
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_23_avatar-1-Bk0fx3lX.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">Alex "Phantom" <br />Chen</p>
+                  <p class="pro">Pro Player - VALORANT</p>
+                  <p class="world">World Champion 2023</p>
+                </div>
+                <span class="phantom">PHANTOM</span>
+                <div class="layer position-absolute"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_24_avatar-2-DSM5R69_.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">Ali "Nova" Ahmed</p>
+                  <p class="pro">Pro Player - League of Legends</p>
+                  <p class="world">MVP 2023 Season</p>
+                </div>
+                <span class="phantom me-3">NOVA</span>
+                <div class="layer position-absolute"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_25_avatar-3-CISh2V2J.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">
+                    Marcus "Viper"<br class="d-lg-none" />
+                    Rodriguez
+                  </p>
+                  <p class="pro">Head Coach - CS:GO</p>
+                  <p class="world">5x Major Winner</p>
+                </div>
+                <span class="phantom me-3">VIPER</span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_26_avatar-4-BCbP093U.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">Seif "Saga" Usama</p>
+                  <p class="pro">Strategic Analyst</p>
+                  <p class="world">Data Science Expert</p>
+                </div>
+                <span class="phantom me-3">SAGA</span>
+                <div class="layer position-absolute"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_27_avatar-5-CKJm2Bjf.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">Jake "Storm" <br />Wilson</p>
+                  <p class="pro">Pro Player - Apex Legends</p>
+                  <p class="world">Rising Star 2023</p>
+                </div>
+                <span class="phantom me-2">STORM</span>
+                <div class="layer position-absolute"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_28_avatar-6-BC4VdJS3.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">David "Titan" Park</p>
+                  <p class="pro">Team Captain - Dota 2</p>
+                  <p class="world">The International Winner</p>
+                </div>
+                <span class="phantom me-3">TITAN</span>
+                <div class="layer position-absolute"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_29_avatar-7-B1LKlfbK.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">
+                    Khaled "Phoenix"<br />
+                    Ali
+                  </p>
+                  <p class="pro">Content Creator</p>
+                  <p class="world">2M+ Followers</p>
+                </div>
+                <span class="phantom">PHOENIX</span>
+                <div class="layer position-absolute"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="position-relative">
+                <img
+                  alt="team-member-picture"
+                  src="Images/imgi_30_avatar-8-DlHfYIx6.png"
+                  class="w-100 object-fit-cover h-100 rounded-4"
+                />
+                <div class="pos">
+                  <p class="alex">
+                    Ryan "Ghost"<br />
+                    Miller
+                  </p>
+                  <p class="pro">Team Manager</p>
+                  <p class="world">Operations Lead</p>
+                </div>
+                <span class="phantom me-2">GHOST</span>
+                <div class="layer position-absolute"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us" id="contactus">
+      <div class="container-xxl">
+        <div class="d-flex flex-column m-64 align-items-center">
+          <p class="mt-0 mb-3 our-p">
+            C O N T A C T <span class="ms-1">U S</span>
+          </p>
+          <h2 class="m-0 conh our-h">Get In Touch</h2>
+          <p class="mt-lg-4 mt-3 mb-0 ot">
+            Have questions or need support? We're here to help!
+          </p>
+        </div>
+
+        <div class="row gy-5 gy-lg-0 justify-content-evenly">
+          <div class="d-flex flex-column col-lg-6">
+            <div>
+              <div
+                class="mb-lg-5 mb-4 p-lg-5 p-4 py-5 d-flex rounded-4 align-items-center parent"
+              >
+                <div
+                  class="me-4 location rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-solid fa-location-dot fa-lg"
+                    style="color: #0b0e13"
+                  ></i>
+                </div>
+                <div>
+                  <p class="our-location m-0">Our Location</p>
+                  <p class="our-location-2 m-0">
+                    123 Gaming Street, Esports City, EC 12345
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="mb-lg-5 mb-4 p-lg-5 p-4 py-5 d-flex rounded-4 align-items-center parent"
+              >
+                <div
+                  class="me-4 location rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-phone fa-lg" style="color: #0b0e13"></i>
+                </div>
+                <div>
+                  <p class="our-location m-0">Phone Number</p>
+                  <p class="our-location-2 m-0">+1 (555) 123-4567</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="mb-lg-5 mb-4 p-lg-5 p-4 py-5 d-flex rounded-4 align-items-center parent"
+              >
+                <div
+                  class="me-4 location rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-solid fa-envelope fa-lg"
+                    style="color: #0b0e13"
+                  ></i>
+                </div>
+                <div>
+                  <p class="our-location m-0">Email Address</p>
+                  <p class="our-location-2 m-0">contact@gamearena.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-lg-5 p-4 py-4 join-parent rounded-4">
+              <p class="join mb-3 mt-0">Join Our Community</p>
+              <p class="connect mb-4 mt-0">
+                Connect with us on social media for the latest updates
+              </p>
+              <div class="d-flex">
+                <div
+                  class="round-icon me-3 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-lg fa-discord"
+                    style="color: #cbfe1c"
+                  ></i>
+                </div>
+                <div
+                  class="round-icon me-3 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-lg fa-x-twitter"
+                    style="color: #cbfe1c"
+                  ></i>
+                </div>
+                <div
+                  class="round-icon me-3 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-lg fa-instagram"
+                    style="color: #cbfe1c"
+                  ></i>
+                </div>
+                <div
+                  class="round-icon rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-lg fa-youtube"
+                    style="color: #cbfe1c"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="form-div p-lg-5 p-4 rounded-4">
+              <h3 class="mb-4 form-h3 w-100">Send us a Message</h3>
+
+              <form>
+                <div class="row mb-4">
+                  <div class="col-lg-6">
+                    <div>
+                      <label for="fname" class="label">First Name</label><br />
+                      <input
+                        id="fname"
+                        type="text"
+                        placeholder="Your first name"
+                        name="fname"
+                        class="fname"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div>
+                      <label for="lname" class="label">Last Name</label><br />
+                      <input
+                        id="lname"
+                        type="text"
+                        placeholder="Your last name"
+                        name="lname"
+                        class="fname"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <label for="email" class="label">Email Address</label><br />
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Your.email@example.com"
+                    name="email"
+                    class="fname"
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <label for="subject" class="label">Subject</label><br />
+                  <select
+                    id="subject"
+                    class="fname"
+                    style="color: #ffffff"
+                    name="subject"
+                  >
+                    <option selected>General Inquiry</option>
+                    <option>Tournament Support</option>
+                    <option>Technical Issue</option>
+                    <option>Partnership</option>
+                    <option>Media Request</option>
+                  </select>
+                </div>
+
+                <div class="mb-4">
+                  <label for="Message" class="label">Message</label><br />
+                  <textarea
+                    id="Message"
+                    rows="7"
+                    name="message"
+                    placeholder="Tell us how we can help you..."
+                    class="fname re"
+                  ></textarea>
+                </div>
+
+                <div class="d-flex align-items-end mb-5">
+                  <input
+                    id="check"
+                    name="Subscribe"
+                    value="done"
+                    type="checkbox"
+                    class="form-check-input me-2 check"
+                  />
+                  <label for="check" class="check-lab"
+                    >Subscribe to our newsletter for gaming updates</label
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  style="font-size: 17px"
+                  class="d-flex justify-content-center align-items-center border-0 w-100 rounded-3 btn-sign px-4 py-3"
+                >
+                  Send Message
+                  <i
+                    class="ms-2 fa-solid fa-paper-plane"
+                    style="color: rgb(0, 0, 0)"
+                  ></i>
+                </button>
+              </form>
+
+              <div
+                class="pt-lg-5 pt-4 mt-5 zee d-flex justify-content-around text-center"
+              >
+                <div>
+                  <p class="zee-p">24/7</p>
+                  <p class="zee-p-2 m-0">Support Available</p>
+                </div>
+                <div>
+                  <p class="zee-p">1hr</p>
+                  <p class="zee-p-2 m-0">Average Response</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container-xxl px-lg-5 px-3">
+        <div class="row mb-lg-5 mb-4 gy-4">
+          <div class="col-lg-3 mb-2 mb-lg-0">
+            <div class="ps-lg-2">
+              <div class="n mb-lg-4 mb-3">
+                <i
+                  class="fa-solid fa-gamepad fa-lg me-2"
+                  style="color: #cbfe1c"
+                ></i>
+                <span class="ga">GameArena</span>
+              </div>
+              <p class="mt-0 mb-lg-4 mb-3 pfoot">
+                The ultimate destination for competitive gaming, esports
+                tournaments, and gaming community.
+              </p>
+              <div>
+                <a class="link" href="https://x.com/" target="_blank"
+                  ><i class="fa-brands fa-lg fa-x-twitter"></i
+                ></a>
+                <a
+                  class="link ps-3"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-lg fa-facebook"></i
+                ></a>
+                <a
+                  class="link ps-3"
+                  href="https://www.instagram.com/?hl=en"
+                  target="_blank"
+                  ><i class="fa-brands fa-lg fa-instagram"></i
+                ></a>
+                <a
+                  class="link ps-3"
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-lg fa-youtube"></i
+                ></a>
+                <a
+                  class="link ps-3"
+                  href="https://www.twitch.tv/"
+                  target="_blank"
+                  ><i class="fa-brands fa-lg fa-twitch"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="ps-lg-5">
+              <p class="foot-game mb-4 mt-0">Games</p>
+              <div class="d-flex flex-column">
+                <a class="game-link" href="#">VALORANT</a>
+                <a class="game-link" href="#">League of Legends</a>
+                <a class="game-link" href="#">CS:GO</a>
+                <a class="game-link" href="#">Dota 2</a>
+                <a class="game-link" href="#">Apex Legends</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="ps-lg-5">
+              <p class="foot-game mb-4 mt-0">Tournaments</p>
+              <div class="d-flex flex-column">
+                <a class="game-link" href="#">Upcoming Events</a>
+                <a class="game-link" href="#">Live Matches</a>
+                <a class="game-link" href="#">Results</a>
+                <a class="game-link" href="#">Rankings</a>
+                <a class="game-link" href="#">Schedule</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="ps-lg-5">
+              <p class="foot-game mb-4 mt-0">Support</p>
+              <div class="d-flex flex-column">
+                <a class="game-link" href="#">Help Center</a>
+                <a class="game-link" href="#">Contact Us</a>
+                <a class="game-link" href="#">Bug Reports</a>
+                <a class="game-link" href="#">Feature Requests</a>
+                <a class="game-link" href="#">Community Guidelines</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-4 d-flex flex-lg-row flex-column justify-content-between align-items-center final-border"
+        >
+          <p class="p-final m-lg-0 mb-2">
+            © 2025 GameArena. All rights reserved.
+          </p>
+          <div class="d-flex align-items-center">
+            <a class="foot-link m-0" href="#">Privacy Policy </a>
+            <a class="foot-link ps-lg-4 ps-3 m-0" href="#">Terms of Service </a>
+            <a class="foot-link ps-lg-4 ps-3 m-0" href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

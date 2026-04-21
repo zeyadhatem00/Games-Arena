@@ -1,0 +1,246 @@
+@media screen and (max-width: 767px) {
+  header {
+    padding: 75px 0 56px 0;
+  }
+  h1 {
+    font-size: 32px;
+    margin-bottom: 14px;
+    line-height: 39px;
+  }
+  h1 span {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .head-p {
+    width: 100%;
+
+    margin: 0 0 24px 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .head-img {
+    height: 12rem;
+    width: 95%;
+    margin: 20px auto 0px;
+  }
+  .btn-sign {
+    width: 100%;
+    font-size: 13px;
+  }
+  .btn-watch {
+    width: 100%;
+    font-size: 13px;
+  }
+  .active-players {
+    font-size: 11px;
+  }
+  .two-five {
+    font-size: 15px;
+  }
+  .float {
+    width: 38%;
+    left: -20px;
+  }
+  .ga {
+    font-size: 18px;
+  }
+  .our-h {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .our-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .car-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .move {
+    bottom: -35px;
+    width: 100%;
+  }
+  .our-games {
+    padding: 80px 0px;
+  }
+
+  .what-p {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .pppp {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .what-card {
+    width: 50px;
+    height: 50px;
+  }
+  .what {
+    padding-top: 80px;
+  }
+  .mm {
+    margin-bottom: 45px;
+  }
+
+  .dimen {
+    width: 70px;
+    height: 70px;
+  }
+
+  .back {
+    background-image: radial-gradient(
+      oklab(0.928225 -0.122995 0.187224 / 0.85) 0%,
+      rgba(0, 0, 0, 0.123) 100%
+    );
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .our-team {
+    padding-top: 70px;
+  }
+  .ot {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .contact-us {
+    padding-top: 70px;
+  }
+  .conh {
+    font-size: 30px;
+  }
+
+  .our-location {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .our-location-2 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .join {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .connect {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .round-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .check-lab {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .check {
+    padding: 9px;
+  }
+  .footer {
+    padding-top: 50px;
+  }
+  .pfoot {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .game-link {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .foot-game {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .p-final {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .foot-link {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .ulll {
+    border-top: 1px solid #313a46;
+    width: 97.5%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  li a.nav-link {
+    font-size: 15px;
+    line-height: 21px;
+    padding: 20px 0;
+  }
+  .my-nav {
+    padding: 16px 16px;
+  }
+  .mnn {
+    padding: 0;
+  }
+  .hover-clone {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 49.98%;
+    transform: translateX(-50%);
+    height: 74.95%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(
+      to top,
+      oklab(0.928225 -0.122995 0.187224 / 0.8) 0%,
+      oklab(0.928225 -0.122995 0.187224 / 0.4) 20%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+  .empty {
+    top: -100px;
+    left: -100px;
+    transition: all 0.25s;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(
+      to bottom right,
+      #cbfe1c 0% 50%,
+      transparent 50%
+    );
+  }
+  .empty-2 {
+    right: -100px;
+    bottom: -100px;
+    transition: all 0.25s;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(
+      to bottom right,
+      transparent 50%,
+      #cbfe1c 0% 50%
+    );
+  }
+  .what-hover:hover .empty {
+    display: none;
+  }
+  .what-hover:hover .empty-2 {
+    display: none;
+  }
+  .smaaall {
+    font-size: 30px;
+  }
+  .card-slider {
+    flex: 0 0 4.4em;
+  }
+}
