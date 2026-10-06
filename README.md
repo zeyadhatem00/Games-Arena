@@ -28,7 +28,7 @@ Games Arena is a single-page gaming and esports landing page built as a static H
 Because this is a static site, any static HTTP server is sufficient. A local server is recommended so that asset paths behave consistently in the browser.
 
 ```bash
-git clone --depth 1 https://github.com/zeyadhatem00/Games-Arena.git
+git clone --depth 1 https://github.com/zeyadhatem00/games-arena.git
 cd Games-Arena
 python3 -m http.server 8000
 ```
